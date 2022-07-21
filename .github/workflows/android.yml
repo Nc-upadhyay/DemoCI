@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-java@v3.4.1
         with:
           java-version: 11
-           - name: Unit tests
-        run: bash ./gradlew test --stacktrace
+     
      
 
